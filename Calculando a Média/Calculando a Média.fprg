@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Calculando a M&#233;dia"/>
+        <attribute name="authors" value="monic"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-13 05:25:17 "/>
+        <attribute name="created" value="bW9uaWM7TEFQVE9QLTNIUEM0S01WOzIwMjUtMDQtMTM7IjA1OjE4OjA4ICI7Mjc5Nw=="/>
+        <attribute name="edited" value="bW9uaWM7TEFQVE9QLTNIUEM0S01WOzIwMjUtMDQtMTM7IjA1OjI1OjE3ICI7MTsyOTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Real" array="False" size=""/>
+            <declare name="y" type="Real" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;Escreva o valor de X: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Escreva o valor de Y: &quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;Calculando a m&#233;dia..&quot;" newline="True"/>
+            <assign variable="media" expression="(x+y)/2"/>
+            <output expression="&quot;O valor da m&#233;dia de X e Y &#233;:  &quot;" newline="True"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
